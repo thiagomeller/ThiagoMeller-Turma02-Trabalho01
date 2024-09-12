@@ -62,7 +62,7 @@ describe("Testes da classe Biblioteca", () => {
 
         test("Atualizar livro", () => {
             novosDados = {
-                titulo: "Novo nome",
+                titulo: "Novo Nome",
             }
 
             biblio.atualizarInformacaoLivro(1, novosDados)
@@ -74,7 +74,7 @@ describe("Testes da classe Biblioteca", () => {
                 genero: "Terror",
                 id: 1,
                 idMembro: null,
-                titulo: "Novo nome",
+                titulo: "Novo Nome",
             })
         })
     })
